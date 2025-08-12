@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: tennis_25yrs
+      description: This is a replica from the tennis database to analyze 25 years of history
+      database: tennis_25yrs
+      schema: raw_matches
+      tables:
+          - name: atp_matches
+            description: One record per match for every ATP torunament
+          - name: wta_matches
+            description: One record per match for every WTA torunament

@@ -1,0 +1,67 @@
+# Environment variables - NEVER commit these!
+MyKeys.env
+.env
+*.env
+
+# Private keys - NEVER commit these!
+rsa_key.p8
+*.p8
+*.pem
+private_key*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+
+# dbt
+target/
+dbt_packages/
+logs/
+.dbt/
+
+# Snowflake
+profiles.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
