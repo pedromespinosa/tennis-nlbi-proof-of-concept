@@ -91,11 +91,6 @@ User Query → Claude AI → Function Calls → Snowflake Analytics Tables → R
 - Enables complex aggregations and comparisons
 - Maintains data integrity through SQL validation
 
-**Why Claude over OpenAI?**
-- Superior function calling capabilities
-- Better understanding of nuanced sports terminology
-- More reliable parameter extraction from natural language
-
 **Architecture Benefits**
 - **Scalable**: Easy to add new sports or data sources
 - **Maintainable**: Clear separation between AI interpretation and data logic
@@ -251,11 +246,10 @@ Grass Court: Federer 3, Nadal 1
 
 Plus an interactive bar chart showing wins by surface.
 
-## 🎯 Future Enhancements
+## 🎯 Potential Future Enhancements
 
 - **Real-time data integration** - Live tournament updates
 - **Advanced analytics** - Predictive modeling and trend analysis  
-- **Multi-sport expansion** - Basketball, soccer, baseball datasets
 - **Voice interface** - Speak your questions instead of typing
 - **Collaborative features** - Share insights and bookmark queries
 
